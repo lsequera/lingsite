@@ -1,0 +1,20 @@
+{
+    "name": "Lingsite",
+    "short_name": "Lingsite",
+    "start_url": "http://localhost:1313/lingsite/",
+    "theme_color": "#434648",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/lingsite/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/lingsite/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

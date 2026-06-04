@@ -1,0 +1,45 @@
+baseURL = 'https://lsequera.github.io/lingsite/'
+locale = 'es-ES'
+title = 'Lingsite Blog'
+theme = "hugo-blog-awesome"
+
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[params]
+  sitename = "Lingsite"
+  defaultColor = "auto"
+  description = "Mi sitio web personal generado con Hugo"
+  mainSections = ['posts']
+  toc = true
+  tocOpen = false
+  goToTop = true
+
+[params.author]
+  name = "lsequera"
+  email = "lsequera@example.com"
+  intro = "Bienvenido a mi sitio"
+  description = "Este es un blog creado con Hugo y GitHub Pages"
+
+[[menu.main]]
+  name = 'Inicio'
+  url = '/'
+  weight = 10
+
+[[menu.main]]
+  name = 'Artículos'
+  url = '/posts/'
+  weight = 20
+
+[[menu.main]]
+  name = 'Acerca de'
+  url = '/about/'
+  weight = 30

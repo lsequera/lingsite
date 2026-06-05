@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/lingsite/</loc>
+    <loc>http://localhost:1314/lingsite/</loc>
     <lastmod>2026-01-13T21:04:35-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lingsite/posts/intro/</loc>
+    <loc>http://localhost:1314/lingsite/posts/intro/</loc>
     <lastmod>2026-01-13T21:04:35-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lingsite/posts/</loc>
+    <loc>http://localhost:1314/lingsite/posts/</loc>
     <lastmod>2026-01-13T21:04:35-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lingsite/categories/</loc>
+    <loc>http://localhost:1314/lingsite/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/lingsite/tags/</loc>
+    <loc>http://localhost:1314/lingsite/tags/</loc>
   </url>
 </urlset>

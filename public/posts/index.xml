@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Lingsite Blog</title>
-    <link>http://localhost:1314/lingsite/</link>
-    <description>Recent content in Home on Lingsite Blog</description>
+    <title>Posts on Lingsite Blog</title>
+    <link>http://localhost:1314/lingsite/posts/</link>
+    <description>Recent content in Posts on Lingsite Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <managingEditor>lsequera@example.com (lsequera)</managingEditor>
     <webMaster>lsequera@example.com (lsequera)</webMaster>
-    <lastBuildDate>Tue, 13 Jan 2026 21:04:35 -0500</lastBuildDate><atom:link href="http://localhost:1314/lingsite/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jan 2026 21:04:35 -0500</lastBuildDate><atom:link href="http://localhost:1314/lingsite/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introdución</title>
       <link>http://localhost:1314/lingsite/posts/intro/</link>

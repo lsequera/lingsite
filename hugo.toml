@@ -1,5 +1,6 @@
 baseURL = 'https://lsequera.github.io/lingsite/'
 locale = 'es-ES'
+languageCode = 'es-ES'
 title = 'Lingsite Blog'
 theme = "hugo-blog-awesome"
 

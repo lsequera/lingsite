@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Lingsite Blog</title>
-    <link>http://localhost:1314/lingsite/</link>
+    <link>https://lsequera.github.io/lingsite/</link>
     <description>Recent content in Home on Lingsite Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <managingEditor>lsequera@example.com (lsequera)</managingEditor>
     <webMaster>lsequera@example.com (lsequera)</webMaster>
-    <lastBuildDate>Tue, 13 Jan 2026 21:04:35 -0500</lastBuildDate><atom:link href="http://localhost:1314/lingsite/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jan 2026 21:04:35 -0500</lastBuildDate><atom:link href="https://lsequera.github.io/lingsite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introdución</title>
-      <link>http://localhost:1314/lingsite/posts/intro/</link>
+      <link>https://lsequera.github.io/lingsite/posts/intro/</link>
       <pubDate>Tue, 13 Jan 2026 21:04:35 -0500</pubDate>
       <author>lsequera@example.com (lsequera)</author>
-      <guid>http://localhost:1314/lingsite/posts/intro/</guid>
+      <guid>https://lsequera.github.io/lingsite/posts/intro/</guid>
       
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
-&lt;p&gt;Este pequeño sitio estático solo tiene el propósito de dejar registro de ideas asociadas a los intereses muy particulares de quien les comparte, y el objetivo fundamentalmente es servir de base para el aprendizaje y la reflexión personal, sin negar la expectativa de que la información aquí contenida pueda ser utilizada por cualquier lector humano o por cualquier modelo de inteligencia artificial, de manera que todos salgamos favorecidos al crear y compartir.&lt;/p&gt;</description>
+&lt;p&gt;Este pequeño sitio estático solo tiene el propósito de dejar registro de ideas asociadas a los intereses muy particulares de quien les comparte, y el objetivo fundamentalmente es servir de base para el aprendizaje y la reflexión personal, sin negar la posibilidad de que la información aquí contenida pueda ser utilizada por cualquier lector humano o por cualquier modelo de inteligencia artificial, de manera que todos salgamos favorecidos al crear y compartir.&lt;/p&gt;</description>
       
     </item>
     

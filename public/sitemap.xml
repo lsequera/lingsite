@@ -1,18 +1,19 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1314/lingsite/</loc>
+    <loc>https://lsequera.github.io/lingsite/</loc>
     <lastmod>2026-01-13T21:04:35-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/lingsite/posts/intro/</loc>
+    <loc>https://lsequera.github.io/lingsite/posts/intro/</loc>
     <lastmod>2026-01-13T21:04:35-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/lingsite/posts/</loc>
+    <loc>https://lsequera.github.io/lingsite/posts/</loc>
     <lastmod>2026-01-13T21:04:35-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/lingsite/categories/</loc>
+    <loc>https://lsequera.github.io/lingsite/categories/</loc>
   </url><url>
-    <loc>http://localhost:1314/lingsite/tags/</loc>
+    <loc>https://lsequera.github.io/lingsite/tags/</loc>
   </url>
 </urlset>

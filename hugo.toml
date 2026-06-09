@@ -18,11 +18,13 @@ theme = "hugo-blog-awesome"
 [params]
   sitename = "Lingsite"
   defaultColor = "auto"
-  description = "Mi sitio web personal generado con Hugo"
+  description = "Sitio web personal generado con Hugo y GitHub Pages"
   mainSections = ['posts']
   toc = true
   tocOpen = false
   goToTop = true
+  math = true
+
 
 [params.author]
   name = "lsequera"

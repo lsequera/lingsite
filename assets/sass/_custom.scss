@@ -1,0 +1,15 @@
+$spacing-full: 30px;
+
+.wrapper {
+  max-width: calc(1000px - (#{$spacing-full} * 2));
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: calc(1000px - (#{$spacing-full}));
+  }
+}
+
+.navbar .container {
+  max-width: calc(1100px - (#{$spacing-full} * 2));
+}

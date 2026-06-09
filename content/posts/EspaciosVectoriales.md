@@ -1,12 +1,13 @@
 +++
 date = '2026-02-03T20:14:08-05:00'
 draft = false
+math = true
 title = 'Espacios Vectoriales'
 author = 'Ling Sequera'
 +++
 
 
-# La potencia de la abstracción: ¿Por qué nos importan los espacios vectoriales en física?
+# La potencia de la abstracción: ¿Por qué nos importan los espacios vectoriales?
 
 Hay ideas que son tan extraordinariamente buenas que terminan manifestándose en casi cualquier rincón de la ciencia y sus aplicaciones. En física, resulta casi natural formular la mayoría de las teorías en el lenguaje de los espacios vectoriales. De hecho, históricamente la intuición geométrica y física de los vectores se utilizó mucho antes de que la estructura matemática detrás de ellos fuera rigurosamente formalizada por matemáticos como Giuseppe Peano a finales del siglo XIX.
 

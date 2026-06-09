@@ -8,7 +8,19 @@
     <language>es-ES</language>
     <managingEditor>lsequera@example.com (lsequera)</managingEditor>
     <webMaster>lsequera@example.com (lsequera)</webMaster>
-    <lastBuildDate>Tue, 13 Jan 2026 21:04:35 -0500</lastBuildDate><atom:link href="https://lsequera.github.io/lingsite/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Feb 2026 20:14:08 -0500</lastBuildDate><atom:link href="https://lsequera.github.io/lingsite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Espacios Vectoriales</title>
+      <link>https://lsequera.github.io/lingsite/posts/espaciosvectoriales/</link>
+      <pubDate>Tue, 03 Feb 2026 20:14:08 -0500</pubDate>
+      <author>lsequera@example.com (lsequera)</author>
+      <guid>https://lsequera.github.io/lingsite/posts/espaciosvectoriales/</guid>
+      
+      <description>&lt;h1 id=&#34;la-potencia-de-la-abstracción-por-qué-nos-importan-los-espacios-vectoriales&#34;&gt;La potencia de la abstracción: ¿Por qué nos importan los espacios vectoriales?&lt;/h1&gt;
+&lt;p&gt;Hay ideas que son tan extraordinariamente buenas que terminan manifestándose en casi cualquier rincón de la ciencia y sus aplicaciones. En física, resulta casi natural formular la mayoría de las teorías en el lenguaje de los espacios vectoriales. De hecho, históricamente la intuición geométrica y física de los vectores se utilizó mucho antes de que la estructura matemática detrás de ellos fuera rigurosamente formalizada por matemáticos como Giuseppe Peano a finales del siglo XIX.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Introdución</title>
       <link>https://lsequera.github.io/lingsite/posts/intro/</link>

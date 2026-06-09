@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es-ES"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Espacios Vectoriales | Lingsite Blog</title>
+<meta property="og:title" content="Espacios Vectoriales | Lingsite Blog" />
+<meta name="twitter:title" content="Espacios Vectoriales | Lingsite Blog" />
+<meta itemprop="name" content="Espacios Vectoriales | Lingsite Blog" />
+<meta name="application-name" content="Espacios Vectoriales | Lingsite Blog" />
+<meta property="og:site_name" content="Lingsite" />
+
+<meta name="description" content="Sitio web personal generado con Hugo y GitHub Pages">
+<meta itemprop="description" content="Sitio web personal generado con Hugo y GitHub Pages" />
+<meta property="og:description" content="Sitio web personal generado con Hugo y GitHub Pages" />
+<meta name="twitter:description" content="Sitio web personal generado con Hugo y GitHub Pages" />
+
+<meta property="og:locale" content="es-ES" />
+<meta name="language" content="es-ES" />
+
+  <link rel="alternate" hreflang="en" href="https://lsequera.github.io/lingsite/posts/espaciosvectoriales/" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2026-02-03T20:14:08-0500 />
+    <meta property="article:published_time" content=2026-02-03T20:14:08-0500 />
+    <meta property="og:url" content="https://lsequera.github.io/lingsite/posts/espaciosvectoriales/" />
+
+    
+    <meta property="og:article:author" content="lsequera" />
+    <meta property="article:author" content="lsequera" />
+    <meta name="author" content="lsequera" />
+    
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Espacios Vectoriales",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2026-02-03",
+        "description": "",
+        "wordCount":  1873 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2026-02-03",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Lingsite Blog"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.162.1">
+
+    
+    <meta property="og:url" content="https://lsequera.github.io/lingsite/posts/espaciosvectoriales/">
+	<meta property="og:site_name" content="Lingsite Blog">
+	<meta property="og:title" content="Espacios Vectoriales">
+	<meta property="og:description" content="La potencia de la abstracción: ¿Por qué nos importan los espacios vectoriales? Hay ideas que son tan extraordinariamente buenas que terminan manifestándose en casi cualquier rincón de la ciencia y sus aplicaciones. En física, resulta casi natural formular la mayoría de las teorías en el lenguaje de los espacios vectoriales. De hecho, históricamente la intuición geométrica y física de los vectores se utilizó mucho antes de que la estructura matemática detrás de ellos fuera rigurosamente formalizada por matemáticos como Giuseppe Peano a finales del siglo XIX.">
+	<meta property="og:locale" content="es_ES">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-02-03T20:14:08-05:00">
+		<meta property="article:modified_time" content="2026-02-03T20:14:08-05:00">
+
+
+    
+    
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Espacios Vectoriales">
+	<meta name="twitter:description" content="La potencia de la abstracción: ¿Por qué nos importan los espacios vectoriales? Hay ideas que son tan extraordinariamente buenas que terminan manifestándose en casi cualquier rincón de la ciencia y sus aplicaciones. En física, resulta casi natural formular la mayoría de las teorías en el lenguaje de los espacios vectoriales. De hecho, históricamente la intuición geométrica y física de los vectores se utilizó mucho antes de que la estructura matemática detrás de ellos fuera rigurosamente formalizada por matemáticos como Giuseppe Peano a finales del siglo XIX.">
+
+
+    
+
+    <link rel="canonical" href="https://lsequera.github.io/lingsite/posts/espaciosvectoriales/">
+    <link href="/lingsite/style.min.93592394530b91065754128b9892b132ece3ea9fc1f8f6e8a175225c4ab09aa1.css" rel="stylesheet">
+    <link href="/lingsite/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/lingsite/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/lingsite/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/lingsite/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/lingsite/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/lingsite/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://lsequera.github.io/lingsite/site.webmanifest">
+
+<meta name="msapplication-config" content="/lingsite/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+    <meta name="color-scheme" content="light dark">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/lingsite/icons/favicon.svg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+    integrity="sha512-fHwaWebuwA7NSF5Qg/af4UeDx9XqUpYpOGgubo3yWu+b2IQR4UeQwbb42Ti7gVAjNtVoI/I9TEoYeu9omwcC6g==" crossorigin="anonymous" crossorigin="anonymous" />
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+    integrity="sha512-LQNxIMR5rXv7o+b1l8+N1EZMfhG7iFZ9HhnbJkTp4zjNr5Wvst75AqUeFDxeRUa7l5vEDyUiAip//r+EFLLCyA=="
+    crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    integrity="sha512-iWiuBS5nt6r60fCz26Nd0Zqe0nbk1ZTIQbl3Kv7kYsX+yKMUFHzjaH2+AnM6vp2Xs+gNmaBAVWJjSmuPw76Efg==" crossorigin="anonymous" onload="renderMathInElement(document.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false}
+      ]
+    });"></script>
+
+    
+    
+</head>
+<body data-theme = "auto" class="notransition">
+
+<script src="/lingsite/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://lsequera.github.io/lingsite/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/lingsite/">
+                        Inicio
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/lingsite/posts/">
+                        Artículos
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/lingsite/about/">
+                        Acerca de
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Espacios Vectoriales</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2026-02-03T20:14:08-05:00" itemprop="datePublished"> 3 feb 2026 </time>
+                </div>
+                
+            </header>
+            
+    
+    <details class="toc" ZgotmplZ>
+        <summary><b></b></summary>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#el-cimiento-algebraico-el-concepto-de-campo-o-cuerpo">El cimiento algebraico: El concepto de campo (o cuerpo)</a></li>
+    <li><a href="#la-estructura-de-espacio-vectorial">La estructura de Espacio Vectorial</a></li>
+    <li><a href="#el-poder-de-la-base-reduciendo-lo-infinito-a-lo-contable">El poder de la base: Reduciendo lo infinito a lo contable</a></li>
+    <li><a href="#el-salto-al-infinito-espacios-de-funciones-y-la-necesidad-de-la-topología">El salto al infinito: Espacios de funciones y la necesidad de la Topología</a></li>
+    <li><a href="#lo-que-un-espacio-vectorial-no-es-la-separación-de-estructuras">Lo que un espacio vectorial NO es: La separación de estructuras</a></li>
+    <li><a href="#geometría-vs-álgebra-el-espacio-físico-frente-al-espacio-vectorial">Geometría vs. Álgebra: El espacio físico frente al espacio vectorial</a></li>
+  </ul>
+</nav>
+    </details>
+            <div class="page-content">
+                <h1 id="la-potencia-de-la-abstracción-por-qué-nos-importan-los-espacios-vectoriales">La potencia de la abstracción: ¿Por qué nos importan los espacios vectoriales?</h1>
+<p>Hay ideas que son tan extraordinariamente buenas que terminan manifestándose en casi cualquier rincón de la ciencia y sus aplicaciones. En física, resulta casi natural formular la mayoría de las teorías en el lenguaje de los espacios vectoriales. De hecho, históricamente la intuición geométrica y física de los vectores se utilizó mucho antes de que la estructura matemática detrás de ellos fuera rigurosamente formalizada por matemáticos como Giuseppe Peano a finales del siglo XIX.</p>
+<p>Desde el punto de vista de la formación en física, solemos abordar los problemas utilizando realizaciones muy concretas: los vectores de posición, velocidad o fuerza en $\mathbb{R}^2$ o $\mathbb{R}^3$, o el espacio-tiempo de Minkowski en $\mathbb{R}^4$. Si bien esto otorga una excelente intuición geométrica para la física clásica, a menudo nos juega una mala pasada. Nos acostumbra a pensar que un vector es únicamente &ldquo;una flechita con magnitud, dirección y sentido&rdquo;, limitando nuestra comprensión de la estructura matemática general. Esta definición rigurosa y abstracta es la que verdaderamente desbloquea el entendimiento de teorías más profundas —como la mecánica cuántica o la relatividad general— y extiende su aplicación a campos que a primera vista parecerían ajenos a la física.</p>
+<h2 id="el-cimiento-algebraico-el-concepto-de-campo-o-cuerpo">El cimiento algebraico: El concepto de campo (o cuerpo)</h2>
+<p>Antes de hablar de un espacio vectorial, debemos entender sobre qué &ldquo;suelo&rdquo; estamos construyendo. Ese suelo es un <strong>campo</strong> (o <em>cuerpo</em>, en la terminología matemática en español, denotado usualmente por $\mathbb{K}$). Un campo es un conjunto dotado de dos operaciones (que llamamos suma y producto) que se comportan de manera tan amigable como los números reales: tienen elementos neutros, inversos (salvo para el cero) y cumplen la propiedad distributiva. Los campos más familiares para un físico son los números reales $\mathbb{R}$ y los complejos $\mathbb{C}$.</p>
+<p>Sin embargo, para valorar la generalidad de la definición, vale la pena salir de la zona de confort y mirar los <strong>campos finitos</strong> (o campos de Galois, $\mathbb{F}_q$). A primera vista, un conjunto finito donde las operaciones &ldquo;dan la vuelta&rdquo; (como la aritmética modular) puede parecer un exotismo matemático sin aplicación física. Pero en computación y teoría de la información, donde el hardware impone límites estrictos y se busca exactitud numérica sin errores de redondeo, los campos finitos son fundamentales.</p>
+<p>Por ejemplo, el estándar de cifrado simétrico <strong>AES</strong> (Advanced Encryption Standard), que protege nuestras comunicaciones diarias en la web, realiza todas sus operaciones algebraicas dentro del campo finito $\mathbb{F}_{2^8}$ (el campo de Galois con 256 elementos). Esto demuestra que las reglas del álgebra abstracta funcionan de manera idéntica sin importar si el campo de escalares contiene infinitos elementos continuos o un puñado finito de bits. Si se quiere profundizar en el funcionamiento del cifrado AES sugiero altamente ver este par de videos de Numberphile <a href="https://youtu.be/O4xNJsjtN6E">AESexplained</a> <a href="https://youtu.be/-fpVv_T4xwA">AES2</a>. Como dato curioso, solo quiero mencionar que este estandar ya está implementado directamente en el hardware de nuestros computadores y celulares, dentro del conjunto de instrucciones del procesador ahi unas cuantas que se encargan del cifrado y descifrado AES, ver <a href="https://en.wikipedia.org/wiki/AES_instruction_set">AES instruction set</a></p>
+<h2 id="la-estructura-de-espacio-vectorial">La estructura de Espacio Vectorial</h2>
+<p>Con el campo $\mathbb{K}$ definido, podemos formalizar qué es un <strong>espacio vectorial</strong> $V$. No es simplemente un conjunto de objetos; es una estructura algebraica que involucra la interacción de dos conjuntos no vacíos:</p>
+<ol>
+<li>Un conjunto de <strong>vectores</strong> $V$ (con una operación interna de adición: $+: V \times V \to V$).</li>
+<li>Un conjunto de <strong>escalares</strong> pertenecientes al campo $\mathbb{K}$.</li>
+</ol>
+<p>Ambos conjuntos se vinculan mediante una operación externa llamada multiplicación por un escalar: $\cdot: \mathbb{K} \times V \to V$. Para que esta estructura sea considerada un espacio vectorial, estas operaciones deben cumplir con ocho axiomas clásicos (asociatividad, conmutatividad del grupo aditivo, distributividad respecto a suma de vectores y escalares, etc. <a href="https://linear.axler.net/">Ver detalles en Axler, <em>Linear Algebra Done Right</em></a>).</p>
+<p>Si nos ponemos meticulosos, la adición dentro del campo $\mathbb{K}$ (sumar dos escalares) y la adición dentro del espacio $V$ (sumar dos vectores) son operaciones matemáticamente distintas que actúan sobre conjuntos diferentes. Sin embargo, la notación matemática universal utiliza el mismo símbolo $+$ para ambas. Esta sutil sobrecarga de operadores no genera confusión precisamente gracias a los axiomas de compatibilidad que entrelazan a los vectores con los escalares.</p>
+<h2 id="el-poder-de-la-base-reduciendo-lo-infinito-a-lo-contable">El poder de la base: Reduciendo lo infinito a lo contable</h2>
+<p>En lugar de recitar una lista de teoremas típicos de libro de texto, vale la pena detenerse en uno de los resultados más profundos y elegantes del álgebra lineal: <strong>todo espacio vectorial posee una base</strong>.</p>
+<p>Para apreciar esto, solo necesitamos tener claros dos conceptos fundamentales estrechamente vinculados:</p>
+<ul>
+<li><strong>Combinación lineal</strong>: La capacidad de construir nuevos vectores sumando vectores escalados, de la forma $\sum_{i} c_i v_i$ con $c_i \in \mathbb{K}$ y $v_i \in V$.</li>
+<li><strong>Independencia lineal</strong>: Un conjunto de vectores es independiente si ninguno de ellos puede expresarse como combinación lineal de los demás.</li>
+</ul>
+<p>Una <strong>base</strong> de $V$ es un conjunto de vectores linealmente independientes que genera a todo el espacio. El teorema que asegura que <em>cualquier</em> espacio vectorial tiene una base (<a href="https://en.wikipedia.org/wiki/Basis_(linear_algebra)#Proof_that_every_vector_space_has_a_basis">cuya demostración para el caso general requiere el Lema de Zorn y, por ende, el Axioma de Elección</a>) tiene implicaciones prácticas gigantescas.</p>
+<p>Lo verdaderamente relevante de tener una base es la <strong>simplificación</strong>. En lugar de tener que estudiar y operar directamente con los infinitos elementos abstractos de un espacio vectorial, nos basta con estudiar lo que ocurre en los elementos de la base. Cualquier vector del espacio puede escribirse de forma única como una combinación lineal de los elementos de la base. Así, representar un vector se reduce simplemente a dar una lista de números (sus coordenadas).</p>
+<h2 id="el-salto-al-infinito-espacios-de-funciones-y-la-necesidad-de-la-topología">El salto al infinito: Espacios de funciones y la necesidad de la Topología</h2>
+<p>La <strong>dimensión</strong> de un espacio vectorial se define como el cardinal (el número de elementos) de cualquiera de sus bases. Pero qué pasa por ejemplo si consideramos las secuencias infinitas de números reales $x = (x_1, x_2, &hellip;)$, definimos la suma $(x_1+y_1, x_2+y_2, &hellip;)$ y el producto por un escalar $\alpha\in\mathbb{R}$ como $(\alpha x_1, \alpha x_2, &hellip;)$, podemos decir que los elementos $e_i = (0, 0, &hellip;, 1, &hellip;)$ con un 1 en la i-ésima posición y 0 en el resto son linealmente independientes y que cualquier secuencia $x = (x_1, x_2, &hellip;)$ se puede escribir como $x = \sum_{i=1}^{\infty} x_i e_i$. Esta es una base de este espacio vectorial, pero no es una base numerable. Una pregunta que surge es qué significa que un vector sea representable como una suma infinita. Me gusta mencionar este ejemplo porque es como una extensión de $\mathbb{R}^n$ a &ldquo;$\mathbb{R}^{\infty}$&rdquo;.</p>
+<p>En general, en los ejemplos clasicos de <strong>espacios vectoriales de dimensión infinita</strong> los &ldquo;vectores&rdquo; suelen ser funciones. Surge una pregunta matemática crucial: si sumamos infinitos vectores (una serie), ¿cómo nos aseguramos de que el resultado de esa suma infinita siga perteneciendo al espacio vectorial? El álgebra pura ya no es suficiente. Para dar sentido a la convergencia y al límite de sumas infinitas, necesitamos dotar al espacio vectorial de una <strong>topología</strong> (una noción de cercanía o vecindad).</p>
+<p>Aunque un espacio vectorial de dimensión infinita pueda parecer una abstracción puramente matemática, en la física real es nuestro pan de cada día:</p>
+<ol>
+<li><strong>Electromagnetismo y Ecuaciones Diferenciales</strong>: Al resolver la ecuación de Laplace $\nabla^2 \Phi = 0$ en electrostática, el principio de superposición nos dice que el conjunto de soluciones forma un espacio vectorial. Para satisfacer condiciones de frontera complejas, expresamos la solución general como una suma infinita de funciones de una base ortogonal (como los polinomios de Legendre o los armónicos esféricos).</li>
+<li><strong>Mecánica Cuántica</strong>: Aquí el uso de espacios de dimensión infinita es explícito y fundacional. Los estados físicos de un sistema cuántico viven en un <strong>espacio de Hilbert</strong> $\mathcal{H}$ (un espacio vectorial complejo dotado de un producto interno que, además, es métricamente <em>completo</em>). La completitud significa que toda sucesión de Cauchy de vectores converge a un elemento que también pertenece al espacio, lo cual garantiza que las probabilidades sumen 1 y que los estados físicos resultantes de procesos límite sigan siendo físicamente válidos.</li>
+<li><strong>Procesamiento de Señales (Física Aplicada / Ingeniería)</strong>: El análisis de Fourier descompone una señal (función) en una suma infinita (serie de Fourier) de componentes sinusoidales. Cada seno y coseno actúa como un vector de una base ortogonal. Filtrar una señal no es más que proyectar dicho vector sobre un subespacio vectorial específico para eliminar ciertas frecuencias.</li>
+<li><strong>Econometría e Inteligencia Artificial</strong>: En la econometría y el aprendizaje automático, se utilizan <strong>espacios vectoriales de dimensión infinita</strong> para modelar distribuciones de probabilidad. Aunque a menudo trabajamos con muestras finitas, los modelos teóricos se basan en espacios de funciones donde los &ldquo;vectores&rdquo; son distribuciones de probabilidad. Por ejemplo, el espacio de funciones medibles con valor real en un espacio de probabilidad es un espacio vectorial.</li>
+</ol>
+<h2 id="lo-que-un-espacio-vectorial-no-es-la-separación-de-estructuras">Lo que un espacio vectorial NO es: La separación de estructuras</h2>
+<p>Es crucial que un estudiante note algo que a menudo se pasa por alto: <strong>en su definición pura, un espacio vectorial no tiene noción de distancia, ángulo, tamaño o cercanía</strong>.</p>
+<p>Conceptos como la longitud de un vector o el ángulo entre dos vectores no son intrínsecos al espacio vectorial. Para tenerlos, debemos añadir estructuras algebraicas adicionales:</p>
+<ul>
+<li>Un <strong>producto interno</strong> (o producto escalar), que nos permite definir ángulos y proyecciones.</li>
+<li>Una <strong>norma</strong>, que nos da la noción de &ldquo;tamaño&rdquo; o longitud.</li>
+<li>Una <strong>métrica</strong>, que define la distancia entre elementos.</li>
+</ul>
+<p>Un espacio vectorial desnudo es puramente algebraico. Al dotarlo paulatinamente de estas capas (espacio vectorial $\to$ espacio prehilbertiano $\to$ espacio normado $\to$ espacio métrico), multiplicamos su utilidad, pero es vital mantener la distinción conceptual para no asumir propiedades que el espacio podría no tener.</p>
+<h2 id="geometría-vs-álgebra-el-espacio-físico-frente-al-espacio-vectorial">Geometría vs. Álgebra: El espacio físico frente al espacio vectorial</h2>
+<p>En física, conviene hacer una precisión sutil pero sumamente importante. En mecánica clásica, el espacio donde se mueve una partícula (el espacio físico o <em>espacio de configuraciones</em>) no es, en general, un espacio vectorial. Es una estructura geométrica llamada <strong>variedad diferenciable</strong> (como una esfera $S^2$ o una superficie curva).</p>
+<p>¿Por qué importa esto? Porque en una superficie curva no tiene sentido sumar dos &ldquo;posiciones&rdquo; ni multiplicar una posición por un número. Sin embargo, en cada punto $p$ de esa variedad, podemos &ldquo;adjuntar&rdquo; un espacio vectorial llamado <strong>espacio tangente</strong> $T_p M$. Es en este espacio vectorial donde viven entidades físicas como la velocidad $\vec{v}$, la aceleración o las fuerzas aplicadas en ese instante.</p>
+<p>Al estudiar una partícula en un plano llano, solemos usar $\mathbb{R}^2$ tanto para describir las posiciones (como variedad) como para describir las velocidades (como espacio vectorial). Esta feliz coincidencia nos hace olvidar la distinción. Pero al dar el salto a la relatividad general o a sistemas con restricciones, comprender que las posiciones pertenecen a una variedad y las velocidades físicas viven en espacios vectoriales tangentes independientes es la clave para no perder el rumbo.</p>
+<p>Cuando comence a escribir este texto mi intención era solo resaltar ciertos aspectos que son muy elementales una vez los conoces, pero que me hubiera gustado saber cuando estudiaba física porque creo por podría haber ententido mejor. Quería que fuera un pequeño preambulo para describir la implentación física de vectores matrices y operaciones dentro de una GPU, me he dado cuenta en este punto que hay mucho por decir y ya está suficientemente extenso, asi que lo reservaré para sus propios espacios y dejaré este hasta este punto.</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+</div>
+    <small class="footer_copyright">
+        © 2026 lsequera.
+        
+    </small>
+</footer><a href="#" title="" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+
+
+    
+    <script src="https://lsequera.github.io/lingsite/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js" integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30&#43;lSNuSkl4QXuNyy8="></script>
+
+    
+
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
     "name": "Lingsite",
     "short_name": "Lingsite",
-    "start_url": "http://localhost:1313/lingsite/",
+    "start_url": "https://lsequera.github.io/lingsite/",
     "theme_color": "#434648",
     "background_color": "#ffffff",
     "display": "standalone",
